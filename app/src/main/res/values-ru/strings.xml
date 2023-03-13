@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bozorliq</string>
+    <string name="day_mode">Kunduzgi rejim</string>
+    <string name="night_mode">Tungi rejim</string>
+    <string name="add">Qo\'shish</string>
+    <string name="cancel">Bekor qilish</string>
+    <string name="add_category">Bozorlik ro\'yhati qo\'shish</string>
+    <string name="requared_category_name">Ro\'yhat nomi bo\'sh bo\'lmasligi kerak</string>
+    <string name="name_category">Ro\'yhat nomi</string>
+</resources>

@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="ClassicTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="colorPrimary">@color/cl_color_primary</item>
+        <item name="colorPrimaryDark">@color/cl_color_primary_dark</item>
+        <item name="colorAccent">@color/cl_color_primary</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/cl_secondary_text_color</item>
+    </style>
+
+    <style name="NightTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="colorPrimary">@color/n_color_primary</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="colorPrimaryDark">@color/n_color_primary_dark</item>
+        <item name="colorAccent">@color/n_color_primary</item>
+        <item name="android:textColorSecondary">@color/n_secondary_text_color</item>
+    </style>
+
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@color/cl_color_primary</item>
+        <item name="android:textColorHint">@color/default_text_color</item>
+    </style>
+
+</resources>
