@@ -1,4 +1,6 @@
-package uz.tsul.mobile.utils.language
+package uz.bozorliq.utils.language
+
+import uz.tsul.mobile.utils.language.Language
 
 class English :
     Language() {

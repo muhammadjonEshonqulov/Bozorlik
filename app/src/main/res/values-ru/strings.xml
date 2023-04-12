@@ -1,10 +1,26 @@
 <resources>
     <string name="app_name">Bozorliq</string>
-    <string name="day_mode">Kunduzgi rejim</string>
-    <string name="night_mode">Tungi rejim</string>
-    <string name="add">Qo\'shish</string>
-    <string name="cancel">Bekor qilish</string>
-    <string name="add_category">Bozorlik ro\'yhati qo\'shish</string>
-    <string name="requared_category_name">Ro\'yhat nomi bo\'sh bo\'lmasligi kerak</string>
-    <string name="name_category">Ro\'yhat nomi</string>
+    <string name="day_mode">Дневной режим</string>
+    <string name="night_mode">Ночной режим</string>
+    <string name="add">Добавлять</string>
+    <string name="cancel">Отмена</string>
+    <string name="add_category">Добавление cписок товаров</string>
+    <string name="requared_category_name">Название списка не должно быть пустым</string>
+    <string name="name_category">Название списка</string>
+    <string name="edit">Редактировать</string>
+    <string name="no">Нет</string>
+    <string name="yes">Да</string>
+    <string name="delete">Удаление</string>
+    <string name="delete_category_message">Вы действительно хотите удалить этот список ?</string>
+    <string name="name_product">Что взять …</string>
+    <string name="settings">Настройки</string>
+    <string name="theme">Темы</string>
+    <string name="feedback">Соображения</string>
+    <string name="languages">Языки</string>
+    <string name="uzbek_language">O\'zbekcha</string>
+    <string name="russian_language">Русский</string>
+    <string name="english_language">English</string>
+    <string name="app_title">Список товаров</string>
+    <string name="empty_message">Добро пожаловать. \nИспользуйте кнопку+, чтобы создать список товаров</string>
+    <string name="list_of_products_is_empty_yet">List of products is empty yet</string>
 </resources>

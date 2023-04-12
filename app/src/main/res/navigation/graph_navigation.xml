@@ -5,28 +5,6 @@
     android:id="@+id/graph_nav"
     app:startDestination="@id/splashFragment">
 
-    <!--    <fragment-->
-    <!--        android:id="@+id/qoqonMainFragment"-->
-    <!--        android:name="uz.smartavtodrom."-->
-    <!--        android:label="AuthFragment"-->
-    <!--        tools:layout="@layout/qoqon_main_fragment">-->
-
-    <!--        <action-->
-    <!--            android:id="@+id/action_qoqonMainFragment_to_settingsFragment"-->
-    <!--            app:destination="@id/settingsFragment"-->
-    <!--            app:enterAnim="@anim/slide_in_left"-->
-    <!--            app:exitAnim="@anim/slide_out_left"-->
-    <!--            app:popEnterAnim="@anim/slide_in_right"-->
-    <!--            app:popExitAnim="@anim/slide_out_right" />-->
-    <!--        <action-->
-    <!--            android:id="@+id/action_qoqonMainFragment_to_qrScanFragment"-->
-    <!--            app:destination="@id/qrScanFragment"-->
-    <!--            app:enterAnim="@anim/slide_in_left"-->
-    <!--            app:exitAnim="@anim/slide_out_left"-->
-    <!--            app:popEnterAnim="@anim/slide_in_right"-->
-    <!--            app:popExitAnim="@anim/slide_out_right" />-->
-
-    <!--    </fragment>-->
     <fragment
         android:id="@+id/splashFragment"
         android:name="uz.bozorliq.ui.splash.SplashFragment"
@@ -46,6 +24,80 @@
         android:id="@+id/mainFragment"
         android:name="uz.bozorliq.ui.main.MainFragment"
         android:label="MainFragment"
-        tools:layout="@layout/fragment_main" />
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_student_productFragment"
+            app:destination="@id/productFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_right" />
+
+        <action
+            android:id="@+id/action_mainFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_right" />
+
+        <action
+            android:id="@+id/action_mainFragment_to_themeFragment"
+            app:destination="@id/themeFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_right" />
+
+        <action
+            android:id="@+id/action_mainFragment_to_languageFragment"
+            app:destination="@id/languageFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_right" />
+
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/productFragment"
+        android:name="uz.bozorliq.ui.product.ProductFragment"
+        android:label="ProductFragment"
+        tools:layout="@layout/fragment_product" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="uz.bozorliq.ui.settings.SettingsFragment"
+        android:label="SettingsFragment"
+        tools:layout="@layout/fragment_settings">
+
+        <action
+            android:id="@+id/action_settingsFragment_to_themeFragment"
+            app:destination="@id/themeFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_right" />
+
+        <action
+            android:id="@+id/action_settingsFragment_to_languageFragment"
+            app:destination="@id/languageFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_right" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/languageFragment"
+        android:name="uz.bozorliq.ui.settings.language.LanguageFragment"
+        android:label="LanguageFragment"
+        tools:layout="@layout/fragment_language" />
+    <fragment
+        android:id="@+id/themeFragment"
+        android:name="uz.bozorliq.ui.settings.themes.ThemeFragment"
+        android:label="ThemeFragment"
+        tools:layout="@layout/fragment_theme" />
 
 </navigation>

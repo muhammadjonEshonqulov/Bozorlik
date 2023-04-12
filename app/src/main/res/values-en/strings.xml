@@ -1,10 +1,26 @@
 <resources>
     <string name="app_name">Bozorliq</string>
-    <string name="day_mode">Kunduzgi rejim</string>
-    <string name="night_mode">Tungi rejim</string>
-    <string name="add">Qo\'shish</string>
-    <string name="cancel">Bekor qilish</string>
-    <string name="add_category">Bozorlik ro\'yhati qo\'shish</string>
-    <string name="requared_category_name">Ro\'yhat nomi bo\'sh bo\'lmasligi kerak</string>
-    <string name="name_category">Ro\'yhat nomi</string>
+    <string name="day_mode">Day mode</string>
+    <string name="night_mode">Night mode</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_category">Add list of product</string>
+    <string name="requared_category_name">list name should not be empty</string>
+    <string name="name_category">name of list</string>
+    <string name="edit">Edit</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="delete">Delete</string>
+    <string name="delete_category_message">Are you sure to delete this category?</string>
+    <string name="name_product">What to take ...</string>
+    <string name="settings">Sozlamalar</string>
+    <string name="theme">Themes</string>
+    <string name="feedback">Feedback</string>
+    <string name="languages">Languages</string>
+    <string name="uzbek_language">O\'zbekcha</string>
+    <string name="russian_language">Русский</string>
+    <string name="english_language">English</string>
+    <string name="app_title">LIST OF PRODUCTS</string>
+    <string name="empty_message">Welcome. \nUse the + button to create a list of products</string>
+    <string name="list_of_products_is_empty_yet">List of products is empty yet</string>
 </resources>

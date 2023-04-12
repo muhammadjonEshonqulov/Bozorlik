@@ -150,8 +150,8 @@ abstract class BaseFragment<VB : ViewBinding>(private val inflate: Inflate<VB>) 
 //        }
 //    }
 
-    private fun notifyThemeChanged() = onCreateTheme(themeManager.currentTheme)
-    private fun notifyLanguageChanged() = onCreateLanguage(languageManager.currentLanguage)
+    fun notifyThemeChanged() = onCreateTheme(themeManager.currentTheme)
+    fun notifyLanguageChanged() = onCreateLanguage(languageManager.currentLanguage)
 //    protected fun notifyOnTextSize() = onTextSiz(textSizes)
 
     open fun onCreateTheme(theme: Theme) {

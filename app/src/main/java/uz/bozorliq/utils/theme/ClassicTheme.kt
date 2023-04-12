@@ -26,7 +26,7 @@ class ClassicTheme : Theme() {
     override val textColor: Int
         get() = ContextCompat.getColor(App.context, R.color.text_color)
     override val defTextColor: Int
-        get() = ContextCompat.getColor(App.context, R.color.default_text_color)
+        get() = ContextCompat.getColor(App.context, R.color.button_color)
     override val miniActionTextColor: Int
         get() = ContextCompat.getColor(App.context, R.color.mini_action_color)
 }

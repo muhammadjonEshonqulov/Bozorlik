@@ -22,7 +22,7 @@
 
     <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
         <item name="boxStrokeColor">@color/cl_color_primary</item>
-        <item name="android:textColorHint">@color/default_text_color</item>
+        <item name="android:textColorHint">@color/button_color</item>
     </style>
 
 </resources>

@@ -2,7 +2,6 @@ package uz.bozorliq.utils.language
 
 import android.content.Context
 import uz.bozorliq.utils.Prefs
-import uz.tsul.mobile.utils.language.English
 import uz.tsul.mobile.utils.language.Language
 import uz.tsul.mobile.utils.language.Russian
 import uz.tsul.mobile.utils.language.Uzbek

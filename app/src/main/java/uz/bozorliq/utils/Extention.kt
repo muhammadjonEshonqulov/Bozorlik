@@ -22,6 +22,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.viewbinding.ViewBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.snackbar.Snackbar
+import com.google.android.material.textfield.TextInputEditText
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.channels.BufferOverflow
@@ -177,6 +178,11 @@ fun changeTypeDate(date: String): String {
         ""
     }
 }
+fun <T> MutableList<T>.swap(index1: Int, index2: Int){
+    val tmp = this[index1]
+    this[index1] = this[index2]
+    this[index2] = tmp
+}
 
 fun finish(binding: ViewBinding) {
     binding.root.findNavController().popBackStack()
@@ -196,7 +202,6 @@ fun lg(message: Any) {
 
 fun toast(binding: ViewBinding, message: String) {
     Toast.makeText(binding.root.context, message, Toast.LENGTH_LONG).show()
-
 }
 
 @SuppressLint("SimpleDateFormat")
@@ -284,6 +289,14 @@ fun Int.getDate(): String {
 
 
 fun EditText.showKeyboard() {
+    post {
+        requestFocus()
+        val imm = context.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+        imm.showSoftInput(this, InputMethodManager.SHOW_IMPLICIT)
+    }
+}
+
+fun TextInputEditText.showKeyboard() {
     post {
         requestFocus()
         val imm = context.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager

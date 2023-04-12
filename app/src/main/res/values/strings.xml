@@ -4,7 +4,23 @@
     <string name="night_mode">Tungi rejim</string>
     <string name="add">Qo\'shish</string>
     <string name="cancel">Bekor qilish</string>
-    <string name="add_category">Bozorlik ro\'yhati qo\'shish</string>
-    <string name="requared_category_name">Ro\'yhat nomi bo\'sh bo\'lmasligi kerak</string>
-    <string name="name_category">Ro\'yhat nomi</string>
+    <string name="add_category">Bozorlik ro\'yxati qo\'shish</string>
+    <string name="requared_category_name">ro\'yxat nomi bo\'sh bo\'lmasligi kerak</string>
+    <string name="name_category">ro\'yxat nomi</string>
+    <string name="edit">O\'zgartirish</string>
+    <string name="no">Yo\'q</string>
+    <string name="yes">Ha</string>
+    <string name="delete">O\'chirish</string>
+    <string name="delete_category_message">Siz rostan ham ushbu ro\'yxatni o\'chirmoqchimisiz ?</string>
+    <string name="name_product">Nima olish kerak ...</string>
+    <string name="settings">Sozlamalar</string>
+    <string name="theme">Mavzular</string>
+    <string name="feedback">Mulohaza</string>
+    <string name="languages">Tillar</string>
+    <string name="uzbek_language">O\'zbekcha</string>
+    <string name="russian_language">Русский</string>
+    <string name="english_language">English</string>
+    <string name="app_title">BOZORLIQ RO‘YXATI</string>
+    <string name="empty_message">Xush kelibsiz\nBozorlik ro\'yxatini yaratish uchun + tugmasidan foydalaning</string>
+    <string name="list_of_products_is_empty_yet">Bozorliq ro\'yxati hali bo\'sh</string>
 </resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "231629510088",
+    "project_id": "bozorliq",
+    "storage_bucket": "bozorliq.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231629510088:android:7a21d86bf4af8bef3a5cfd",
+        "android_client_info": {
+          "package_name": "uz.bozorliq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "231629510088-02d02lh5ve3mgjt20v1r22l09914j4v8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPeA39zvZgku-VrhrXUAlsoHLZ9BwAl74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "231629510088-02d02lh5ve3mgjt20v1r22l09914j4v8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
