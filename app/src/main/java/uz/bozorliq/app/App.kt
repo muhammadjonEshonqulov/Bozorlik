@@ -11,6 +11,9 @@ class App : Application() {
     override fun onCreate() {
         super.onCreate()
         context = this.applicationContext
+
+        MobileAds.initialize(this) { }
+
     }
 
     companion object {
